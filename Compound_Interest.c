@@ -2,9 +2,9 @@
 #include<math.h>
 int main()
 {
-    float p,t,r,c,ci;
-    scanf("%f%f%f",&p,&r,&t);
+    double p,r,t,c,ci;
+    scanf("%lf%lf%lf",&p,&r,&t);
     c=pow(1+r/100,t);
     ci=p*c-p;
-    printf("%0.2f",ci);
+    printf("%0.2lf",ci);
 }
